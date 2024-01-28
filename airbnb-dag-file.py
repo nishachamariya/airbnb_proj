@@ -1,16 +1,12 @@
 from datetime import datetime,timedelta
 from airflow import DAG
-from airflow.operators.python_operator import PythonOperator
+from airflow.operators.python import PythonOperator
 import io
 import pandas as pd
 import requests
 import boto3
 import os
 
-os.environ['AIRFLOW_HOME'] = 'home'
-sql_alchemy_conn = 'sqlite:///C:\\Users\\91996\\Desktop\\big data project\\newyork_airbnb\\airflow.db'
-
-sql_alchemy_conn = 'sqlite:////home/airflow.db'
 
 default_args = {
     'owner':'airflow',
