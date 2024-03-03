@@ -34,8 +34,8 @@ dag = DAG(
 
 def load_data_from_s3(**kwargs):
     # Specify your AWS credentials and region
-    aws_access_key_id = 'AKIAXYKJSX52URTNLYPK'
-    aws_secret_access_key ='qWUJWEogniTzoxgeSndX4e7G02lielsMbUbLU1ft'
+    aws_access_key_id = 'xxxxx'
+    aws_secret_access_key ='xxxx'
     region_name = 'ap-south-1'
 
     # Specify the S3 bucket and file/key

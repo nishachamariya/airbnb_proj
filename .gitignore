@@ -6,7 +6,6 @@ config
 dags
 docker-compose.yaml
 mmm.py
-sample.py
 sample2.py
-see
 .devcontainer
+pligins
