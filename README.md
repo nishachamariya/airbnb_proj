@@ -5,3 +5,13 @@ The goal of this project is to perform data analytics on Airbnb data using vario
 
 ### Architecture
 ![Architechture](airbnb_architechture.jpeg)
+
+# Technology Used
+ . Programming Language - Python
+Amazon s3
+airflow
+Redshift
+
+
+# DATAMODEL
+![DATAMODEL](Airbnb_datamodel.jpeg)
