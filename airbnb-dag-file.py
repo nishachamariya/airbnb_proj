@@ -125,8 +125,8 @@ def load_data_into_redshift(**kwargs):
         host="default-workgroup.533267136373.us-east-1.redshift-serverless.amazonaws.com",
         port=5439,
         database='dev',
-        user='admin',
-        password='Nisha1302'
+        user='xxx',
+        password='xxx'
     )
 
     cursor = conn.cursor()
