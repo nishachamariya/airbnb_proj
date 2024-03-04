@@ -21,3 +21,6 @@ Redshift
 2. First task of the dag is to fetch data from S3 
 3. Second task is to transform the data .
 4. Third task is to load the transformed data in the Redshift.
+
+# DAG
+![DAG](airbnb-dag.png)
